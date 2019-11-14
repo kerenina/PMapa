@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CMMSN" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LtL-8f-iPs">
+                                <rect key="frame" x="0.0" y="44" width="414" height="747"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="Ahx-d0-ceu"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="700" id="OuM-gh-Vkk"/>
+                                    <constraint firstAttribute="height" constant="747" id="RD1-kI-B1v"/>
+                                </constraints>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Yde-NC-4sM">
+                                <rect key="frame" x="20" y="807" width="374" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="8bG-ch-r2B"/>
+                                    <constraint firstAttribute="height" constant="28" id="MYM-2o-WNI"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Satellite"/>
+                                    <segment title="Hybrid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="cambiarVista:" destination="BYZ-38-t0r" eventType="valueChanged" id="gfu-fS-5kh"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opv-dR-Bv6">
+                                <rect key="frame" x="282" y="80" width="112" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99705451726913452" green="0.68287109952522573" blue="0.36765405700737896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <state key="normal" title="RUTA">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showDirectionWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VEj-J4-OVs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd9-Y3-ZVB">
+                                <rect key="frame" x="276" y="128" width="126" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99705451726913452" green="0.70208135294810159" blue="0.36946172927134152" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <state key="normal" title="Cambiar Destino">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="Back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJj-sz-2t0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yde-NC-4sM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2Fg-K9-bd6"/>
+                            <constraint firstItem="Yde-NC-4sM" firstAttribute="top" secondItem="LtL-8f-iPs" secondAttribute="bottom" constant="16" id="8jd-ZR-WOy"/>
+                            <constraint firstItem="LtL-8f-iPs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ABo-ka-iss"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yde-NC-4sM" secondAttribute="bottom" constant="27" id="CdJ-os-EDO"/>
+                            <constraint firstItem="LtL-8f-iPs" firstAttribute="centerX" secondItem="Yde-NC-4sM" secondAttribute="centerX" id="Xb6-4U-pCU"/>
+                            <constraint firstAttribute="trailing" secondItem="LtL-8f-iPs" secondAttribute="trailing" id="ZIx-gA-kGn"/>
+                            <constraint firstItem="Yde-NC-4sM" firstAttribute="top" secondItem="LtL-8f-iPs" secondAttribute="bottom" constant="16" id="kub-Mp-Pr7"/>
+                            <constraint firstItem="LtL-8f-iPs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lkF-Za-jLb"/>
+                            <constraint firstItem="LtL-8f-iPs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pT6-Fy-RdG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yde-NC-4sM" secondAttribute="trailing" constant="20" id="sGx-8I-vGb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapita" destination="LtL-8f-iPs" id="93v-8L-x0q"/>
+                        <outlet property="selector" destination="Yde-NC-4sM" id="S2a-Ag-8br"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+</document>

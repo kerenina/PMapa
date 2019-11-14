@@ -1,0 +1,123 @@
+[{
+            "latitud": 19.3329,
+            "longitud": -99.1851108,
+            "titulo": "Islas",
+            "subtitulo": "Recreativo"
+        },
+        {
+            "latitud":19.331918,
+            "longitud": -99.192168,
+            "titulo":"Estadio Olimpico",
+            "subtitulo": "Deportes"
+        },
+        {
+            "latitud":19.329502,
+            "longitud":-99.177303,
+            "titulo":"Veterinaria",
+            "subtitulo":"Facultad"
+        },
+        {
+            "latitud": 19.333132,
+            "longitud": -99.180247,
+            "titulo":"Medicina",
+            "subtitulo":"Facultad"
+        },
+        {
+            "latitud":19.331942,
+            "longitud":-99.181244,
+            "titulo":"Química",
+            "subtitulo":"Facultad"
+        },
+        {
+            "latitud":19.333406,
+            "longitud":-99.18733,
+            "titulo":"Biblioteca Central",
+            "subtitulo": "Libros"
+        },
+        {
+            "latitud":19.33114,
+            "longitud":-99.187717,
+            "titulo":"MUCA",
+            "subtitulo":"Museo"
+        },
+        {
+            "latitud":19.33487,
+            "longitud":-99.18341,
+            "titulo":"Economia",
+            "subtitulo":"Facultad"
+        },
+        {
+            "latitud":19.33463,
+            "longitud":-99.185838,
+            "titulo":"Filosofia",
+            "subtitulo":"Facultad"
+        },
+        {
+            "latitud":19.318744,
+            "longitud":-99.178017,
+            "titulo":"Politicas y Sociales",
+            "subtitulo":"Facultad"
+        },
+        {
+            "latitud": 19.330943,
+            "longitud": -99.186739,
+            "titulo": "Arquitectura",
+            "subtitulo": "Facultad"
+        },
+        {
+            "latitud": 19.324118,
+            "longitud": -99.180119,
+            "titulo": "Ciencias",
+            "subtitulo": "Facultad"
+        },
+        {
+            "latitud": 19.334252,
+            "longitud": -99.184122,
+            "titulo": "Centro de Estudios China-Mexico",
+            "subtitulo": "Socioeconomia"
+        },
+        {
+            "latitud": 19.334314,
+            "longitud": -99.181598,
+            "titulo": "Odontologia",
+            "subtitulo": "Facultad"
+        },
+        {
+            "latitud": 19.330915,
+            "longitud": -99.177753,
+            "titulo": "Museo de Anatomia Patologica",
+            "subtitulo": "Museo"
+        },
+        {
+            "latitud": 19.328727,
+            "longitud": -99.177388,
+            "titulo": "Museo de Morfologia",
+            "subtitulo": "Museo"
+        },
+        {
+            "latitud": 19.327762,
+            "longitud": -99.176196,
+            "titulo": "Instituto de Geologia",
+            "subtitulo": "Investigación"
+        },
+        {
+            "latitud": 19.332101,
+            "longitud": -99.188202,
+            "titulo": "Rectoría",
+            "subtitulo": "UNAM"
+        },
+        {
+            "latitud": 19.326066,
+            "longitud": -99.177827,
+            "titulo": "Instituto de Astronomia",
+            "subtitulo": "Investigacion"
+        },
+        {
+            "latitud": 19.324799,
+            "longitud": -99.177047,
+            "titulo": "Instituto de Física",
+            "subtitulo": "Investigación"
+        }
+]
+
+
